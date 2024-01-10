@@ -1,0 +1,14 @@
+/* AddDeliveryAddress.css */
+.delivery-address {
+  text-align: center;
+  padding: 20px;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.submit-button {
+  margin-top: auto;
+}

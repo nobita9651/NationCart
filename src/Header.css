@@ -1,0 +1,176 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(199, 199, 199);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.location-options {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 130px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Location Input Styles */
+.location-options input {
+  padding: 5px;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Location List Styles */
+.location-list {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+/* Location List Item Styles */
+.location-list li {
+  padding: 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Location List Item Hover Styles */
+.location-list li:hover {
+  background-color: #c0c0c0;
+}
+.header_logo {
+  width: 170px;
+  /* height: 100%; */
+  object-fit: contain;
+  margin: 0 15px;
+  margin-top: 2px;
+  /* align-items: center; */
+  cursor: pointer;
+}
+.header_searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+.header_search {
+  display: flex;
+  flex: 1;
+  border-radius: 24px;
+  align-items: center;
+}
+.header_searchIcon {
+  padding: 5px;
+  background-color: #ff5722;
+  height: 22px !important;
+}
+.header_signin {
+  padding: 5px;
+  /* height: 22px !important; */
+  align-items: center;
+  margin-left: 5px;
+  color: white;
+}
+.header_cartcount {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.header_account {
+  padding: 5px;
+  /* height: 22px !important; */
+  align-items: center;
+  margin-left: 2px;
+  color: white;
+}
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header_option {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.header_optionText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 5px;
+  margin-right: 12px;
+}
+.header_option1 {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  /* flex-direction: column; */
+}
+.header_optionLineOne {
+  font-size: 11px;
+}
+.header_optionIcon {
+  margin-right: 10px; /* Add spacing between icon and text */
+}
+.header_optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+.header_optionLineThree {
+  font-size: 13px;
+  font-weight: 800;
+}
+.location-bar {
+  display: none;
+  align-items: center;
+  background-color: #ff5722;
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 4px;
+  transition: display 0.3s ease-in-out;
+}
+
+.header_selectedLocation {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  padding: 1px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 30px;
+  text-align: center; /* Add text-align for centering text */
+}
+.header_selectedLocationText svg {
+  margin-right: 10px; /* Adjust the margin as needed for space between icon and text */
+}
+.header_selectedLocationText {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ff5722;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

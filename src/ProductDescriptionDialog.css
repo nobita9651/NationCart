@@ -1,0 +1,62 @@
+.product_description_dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  background-color: rgb(190, 190, 190);
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  /* max-width: 400px; */
+  width: 100%;
+  /* border-radius: 10px;  */
+  max-width: 90%; /* Set a maximum width for the dialog */
+  max-height: 80%; /* Set a maximum height for the dialog */
+  overflow-y: auto; /* Rounded corners */
+}
+
+.product_description_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.product_description_header h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.product_description_header button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #333;
+  border-radius: 50%; /* Circular border */
+  padding: 8px; /* Adjust the padding to your preference */
+}
+
+.product_description_header button:hover {
+  /* color: #f00;  */
+  color: #000;
+}
+/* Add this to your CSS file */
+.background_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  z-index: 1; /* Place it above everything except the dialog */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product_description_dialog p {
+  margin-top: 10px;
+}

@@ -1,0 +1,43 @@
+.checkout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
+.buttonn {
+  text-decoration: underline;
+}
+.checkout_content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  flex: 1;
+}
+
+.checkout_left {
+  margin-top: 20px;
+}
+
+.checkout_right {
+  /* position: absolute; */
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  text-align: left;
+  border: 1px solid black;
+  height: auto;
+  border-radius: 5px;
+}
+.highlighted-text {
+  color: rgb(153, 153, 153);
+  font-family: "sans-serif";
+  text-decoration: underline;
+  transition: color 0.3s; /* Add a smooth transition effect for the color change */
+  cursor: pointer;
+}
+
+.highlighted-text:hover {
+  color: #ff5722; /* Define the color for the hover effect */
+}
